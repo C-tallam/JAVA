@@ -24,20 +24,20 @@ public class bonuscalculator {
     }
     //computing the net bonus 
     static double bonus(double salary,int yearsofservice){
-        double bonus;
+        double bonuscalculator;
         if (yearsofservice>10) {
-            bonus= salary * 0.12;
+            bonuscalculator= salary * 0.12;
         }
         else if (yearsofservice>=6&&yearsofservice<=10) {
-            bonus=salary * 0.10;
+            bonuscalculator = salary * 0.10;
         }
         else if(yearsofservice<6){
-            bonus=salary * 0.08;
+            bonuscalculator=salary * 0.08;
         }
         else {
-            bonus=0.0;
+            bonuscalculator=0.0;
         }
-        return bonus;
+        return bonuscalculator;
     
     }
     }
